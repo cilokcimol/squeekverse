@@ -1,0 +1,7 @@
+*.sqlite*
+.env
+contracts/art-out
+contracts/cache
+contracts/out
+node_modules
+server/data

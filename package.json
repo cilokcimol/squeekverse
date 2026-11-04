@@ -1,0 +1,37 @@
+{
+  "name": "squeekverse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny planet whose sun only rises when a real hamster runs. Built on Squeekchain.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "server": "tsx server/index.ts",
+    "snapshot": "tsx scripts/snapshot.ts",
+    "test": "vitest run",
+    "e2e": "node tests/e2e.mjs",
+    "contracts:test": "cd contracts && forge test -q",
+    "deploy:sepolia": "tsx scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource/caprasimo": "^5.3.0",
+    "@hono/node-server": "^2.1.6",
+    "hono": "^4.13.16",
+    "three": "^0.187.0",
+    "viem": "^2.57.16"
+  },
+  "devDependencies": {
+    "@foundry-rs/anvil": "^1.7.1",
+    "@foundry-rs/forge": "^1.7.1",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}

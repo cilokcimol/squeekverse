@@ -1,0 +1,13 @@
+{
+  "network": "sepolia",
+  "fromBlock": 12062158,
+  "core": "0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44",
+  "squeeks": "0xcb98349c134ab983da5bfd80527dfe2552bdb70f",
+  "token": "0x5501e1fa81be1c3f49225fa7668da0245d07db60",
+  "dawnMarket": "0x4879838503c962f328fbbb4e57d1e624560cd0d9",
+  "dawnMarketTx": "0x16c3b416d05eac826abba8b9b2a30ec1313a7e4dc16f3cd4eaff5d27a4ed18f6",
+  "sunflower": "0xa88d17fb28540e2eee74abee22f43864d3fedb7e",
+  "sunflowerTx": "0x90c30267e4d9c40b32c16692517d9cc3c442ffec11170bef08b3fac1768b12cf",
+  "seedSwap": "0x1ea3dc865dd62dbe99568999a1b348308d25ea68",
+  "seedSwapTx": "0x28f145ca59d5e52105710e9660b04de1e537e9d3a8c8c8ad4c4bda87578a3f9a"
+}
