@@ -61,3 +61,5 @@ forge test --match-contract ForkTest --fork-url <sepolia rpc>
 ## Limits
 
 Shift scores come from the player's browser, so they are capped and bounds checked on the server but not proven. They are worth bragging rights only. Seeds have no value and cannot leave the game.
+
+squeekchain-project: 99fdf3de-b452-46fc-a121-6dea88aa6f18
